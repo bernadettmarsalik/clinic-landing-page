@@ -18,8 +18,8 @@ module.exports = {
       secondary: "Montserrat",
     },
     backgroundImage: {
-      hero: "url(/assets/bg.jpg)",
-      contact: "url(/assets/contact.jpg)",
+      hero: "url(../assets/bg.jpg)",
+      contact: "url(../assets/contact.jpg)",
     },
     extend: {
       colors: {

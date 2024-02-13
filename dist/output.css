@@ -919,11 +919,11 @@ video {
 }
 
 .bg-contact {
-  background-image: url(/assets/contact.jpg);
+  background-image: url(../assets/contact.jpg);
 }
 
 .bg-hero {
-  background-image: url(/assets/bg.jpg);
+  background-image: url(../assets/bg.jpg);
 }
 
 .bg-fixed {
