@@ -19,6 +19,7 @@ module.exports = {
     },
     backgroundImage: {
       hero: "url(/assets/hero/bg.jpg)",
+      contact: "url(/assets/contact.jpg)",
     },
     extend: {
       colors: {

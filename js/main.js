@@ -19,7 +19,7 @@ const sr = ScrollReveal({
 sr.reveal(".hero__text", { origin: "top" });
 
 // steps
-sr.reveal(".steps__step", { distance: "100px", interval: 100 });
+sr.reveal(".steps__step", { distance: "150px", interval: 100 });
 
 //about
 sr.reveal(".about__text", { origin: "left" });
@@ -30,22 +30,19 @@ sr.reveal(".testimonial__bg", { delay: 800 });
 sr.reveal(".testimonial__title");
 sr.reveal(".testimonial__slider", { delay: 1000 });
 
-// brands
-sr.reveal(".brands__img", { delay: 600, distance: "100px", interval: 100 });
-
-//work
-sr.reveal(".work__title");
-sr.reveal(".work__subtitle", { delay: 800 });
-sr.reveal(".work__grid", { delay: 800 });
+//services
+sr.reveal(".service__title");
+sr.reveal(".service__subtitle", { delay: 800 });
+sr.reveal(".service__grid", { delay: 800 });
 
 // stats
 sr.reveal(".stats");
-sr.reveal(".stats__item", { distance: "100px", interval: 100 });
+sr.reveal(".stats__item", { distance: "150px", interval: 100 });
 
-// news
-sr.reveal(".news__title");
-sr.reveal(".news__subtitle", { delay: 800 });
-sr.reveal(".news__item", { distance: "100px", interval: 1000 });
+// blog
+sr.reveal(".blog__title");
+sr.reveal(".blog__subtitle", { delay: 800 });
+sr.reveal(".blog__item", { distance: "150px", interval: 1000 });
 
 // contact
 sr.reveal(".contact__container");
@@ -53,4 +50,4 @@ sr.reveal(".contact__text", { delay: 800 });
 
 // footer
 sr.reveal(".footer__item");
-sr.reveal(".footer__copyright", { distance: "100px", interval: 100 });
+sr.reveal(".footer__copyright", { distance: "150px", interval: 100 });

@@ -25,12 +25,13 @@
   </head>
   <body class="bg-tertiary">
     <!-- header -->
-    <header class="sticky top-0 h-[90px] shadow-xl z-30 bg-white">
-      <div class="container mx-auto flex justify-between h-full items-center">
+    <header class="sticky top-0 h-[95px] shadow-xl z-30 bg-white">
+      <div class="container mx-auto  flex justify-between items-center h-full ">
         <!-- logo -->
+        <div class="h-[85px]">
         <a href="#">
-          <img class="max-h-[90px]" src="assets/logo.png" alt="" />
-        </a>
+          <img class="h-full" src="assets/logo.png" alt="" />
+        </a></div>
         <nav>
           <!-- mobile trigger -->
           <div class="cursor-pointer lg:hidden" id="nav_trigger_btn">
@@ -38,7 +39,7 @@
           </div>
 
           <ul
-            class="fixed w-full h-0 p-0 bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300"
+            class="fixed w-full h-0 p-0 bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-12 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300"
             id="nav_menu"
           >
             <li><a href="">Home</a></li>
@@ -55,12 +56,12 @@
     <main class="max-w-[1920px] mx-auto bg-white overflow-hidden">
       <!-- grid img -->
       <div
-        class="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-80"
+        class="fixed top-0 bottom-0 left-0 right-0 z-80"
       ></div>
 
       <!-- hero -->
       <section
-        class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20"
+        class="hero h-[640px] xl:h-[850px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20"
       >
         <div
           class="container mx-auto w-full h-full flex items-center justify-center xl:justify-center"
@@ -84,7 +85,7 @@
       </section >
 
       <!-- steps -->
-      <div id="about" class="mt-[20px]"></div>
+      <div id="about" class="mt-[20px]" ></div>
       <section  class="steps mt-[80px] xl:mt-[200px] relative z-20">
         <div class="container mx-auto">
           <!-- grid items -->
@@ -97,7 +98,6 @@
               <h3 class="h3 mb-5">General Medicine</h3>
               <p class="mb-5 max-w-md mx-auto">
                 Offering a range of medical services to address your health needs, ensuring your well-being at every step.
-                Btn text: Learn More
               </p>
               <a href="#" class="font-medium flex justify-center gap-2"
                 >Learn More <i class="ri-arrow-right-line text-accent"></i
@@ -124,7 +124,6 @@
               <h3 class="h3 mb-5">Preventive Health</h3>
               <p class="mb-5 max-w-md mx-auto">
                 Offering a range of medical services to address your health needs, ensuring your well-being at every step.
-Btn text: Learn More
               </p>
               <a href="#" class="font-medium flex justify-center gap-2"
               >Learn More <i class="ri-arrow-right-line text-accent"></i
@@ -228,7 +227,7 @@ Btn text: Learn More
       <img class="mb-6 xl:rounded-bl-[290px] xl:rounded-tr-[290px]" src="assets/services/pexels-cottonbro-studio-7581574.jpg" alt="">
       <div class="flex justify-between items-center w-full">
         <div>
-          <h2 class="h2">Aesthetic Procedure</h2>
+          <h2 class="h2">Aesthetics</h2>
           <p>Cosmetologist</p>
         </div>
         <button class="bg-accent/25 hover:bg-accent w-[70px] h-[70px] rounded-full">
@@ -279,12 +278,11 @@ Btn text: Learn More
                    <img src="assets/testimonial/01.png" alt="" />
                    <div>
                      <h3>Dr. Emily Johnson</h3>
-                     <div>Cardiologist, New York</div>
+                     <div>Cardiologist, NY</div>
                    </div>
                  </div>
-                 <p>
-                   Lorem Ipsum is simply dummy text of the typesetting
-                   industry. Ipsum has been.
+                 <p class="text-justify">
+                  Dr. Smith's exceptional expertise and compassionate care made my medical experience truly exceptional.
                  </p>
                </div>
                      <!-- slide-2 -->
@@ -295,14 +293,12 @@ Btn text: Learn More
                          <div>
                            <h3>Ken Thompson
                            </h3>
-                           <div>Dentist, Brooklyn
+                           <div>Dentist, BR
                            </div>
                          </div>
                        </div>
-                       <p>
-                         Lorem Ipsum is simply dummy 
-                         text of the typesetting industry. 
-                         Ipsum has been.
+                       <p class="text-justify">
+                        Dr. Smith's exceptional expertise and compassionate care made my medical experience truly exceptional.
                        </p>
                      </div>
 
@@ -314,14 +310,12 @@ Btn text: Learn More
                               <div>
                                 <h3>John Miller
                                 </h3>
-                                <div>Radiologist, Queens
+                                <div>Radiologist, NY
                                 </div>
                               </div>
                             </div>
-                            <p>
-                             Lorem Ipsum is simply dummy 
-                             text of the typesetting industry. 
-                             Ipsum has been.
+                            <p class="text-justify">
+                              Dr. Smith's exceptional expertise and compassionate care made my medical experience truly exceptional.
                             </p>
                           </div>
 
@@ -333,13 +327,12 @@ Btn text: Learn More
                                 <div>
                                   <h3>Anna Smith
                                   </h3>
-                                  <div>Plastic Surgery, New York
+                                  <div>Plastic Surgery, NY
                                   </div>
                                 </div>
                               </div>
-                              <p>Lorem Ipsum is simply dummy 
-                               text of the typesetting industry. 
-                               Ipsum has been.
+                              <p class="text-justify">
+                                Dr. Smith's exceptional expertise and compassionate care made my medical experience truly exceptional.
                               </p>
                             </div>
                              <!-- slide-4 -->
@@ -351,13 +344,12 @@ Btn text: Learn More
                                   <h3>Olivia Donovan
 
                                   </h3>
-                                  <div>Cardiologist, Brooklyn
+                                  <div>Cardiologist, NJ
                                   </div>
                                 </div>
                               </div>
-                              <p>Lorem Ipsum is simply dummy 
-                               text of the typesetting industry. 
-                               Ipsum has been.
+                              <p class="text-justify">
+                                Dr. Smith's exceptional expertise and compassionate care made my medical experience truly exceptional.
                               </p>
                             </div>
              </div>
@@ -373,24 +365,9 @@ Btn text: Learn More
        </div>
      </section>
 
-<!-- brands -->
-<div id="brands" class="mt-20px"></div>
-     <section class="brands mt-[80px] xl:mt-[150px] relative z-20">
-       <div class="container mx-auto">
-         <div class="flex flex-col xl:flex-row justify-between items-center gap-12">
-           <img class="brands__img" src="assets/brands/01.svg" alt="">
-           <img class="brands__img" src="assets/brands/02.svg" alt="">
-           <img class="brands__img" src="assets/brands/03.svg" alt="">
-           <img class="brands__img" src="assets/brands/04.svg" alt="">
-           <img class="brands__img" src="assets/brands/05.svg" alt="">
-         </div>
-       </div>
-     </section>
-
-
 <!-- stats -->
 <div id="stats" class="mt-20px"></div>
-<section class="stats mt-[80px] xl:mt-[150px] relative z-20 bg-accent/25 py-[80px] xl:py-[150px]">
+<section class="stats mt-[80px] xl:mt-[150px] relative z-20 bg-tertiary py-[80px] xl:py-[120px]">
 <div class="container mx-auto">
   <!-- grid stats -->
   <div class="grid grid-cols-1 xl:grid-cols-4 gap-12">
@@ -422,10 +399,9 @@ Btn text: Learn More
 </div>
 </section>
 
-
 <!-- blog -->
-<div id="blog" class="mt-20px"></div>
-<section class="blog mt-[80px] xl:mt-[150px] relative z-20">
+<div id="blog" class="mt-[20px]"></div>
+<section class="blog mt-[80px] xl:mt-[120px] relative z-20">
   <div class="container mx-auto px-0">
     <div class="max-w-[810px] mx-auto text-center mb-[52px]">
       <h2 class="blog__title h2">Blog Articles</h2>
@@ -442,7 +418,7 @@ Btn text: Learn More
           <h3 class="h3">Discover the strength and encouragement</h3>
         </div>
         <div class="flex items-center justify-between">
-          <p class="text-base">22 January,2024</p>
+          <p class="text-base">22 January, 2024</p>
           <button class="bg-accent/25 w-[52px] h-[52px] rounded-full group-hover:bg-white transition-all"><i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i></button>
         </div>
       </div>
@@ -454,7 +430,7 @@ Btn text: Learn More
           <h3 class="h3">The importance of Mammography</h3>
         </div>
         <div class="flex items-center justify-between">
-          <p class="text-base">05 February,2024</p>
+          <p class="text-base">05 February, 2024</p>
           <button class="bg-accent/25 w-[52px] h-[52px] rounded-full group-hover:bg-white transition-all"><i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i></button>
         </div>
       </div>
@@ -466,7 +442,7 @@ Btn text: Learn More
           <h3 class="h3">Overcoming Health Challenges in Cardiology</h3>
         </div>
         <div class="flex items-center justify-between">
-          <p class="text-base">10 February,2024</p>
+          <p class="text-base">10 February, 2024</p>
           <button class="bg-accent/25 w-[52px] h-[52px] rounded-full group-hover:bg-white transition-all"><i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i></button>
         </div>
       </div>
@@ -478,11 +454,11 @@ Btn text: Learn More
 
 <!-- contact -->
 <div id="contact" class="mt-20px"></div>
-<section class="contact mt-[80px] xl:mt-[150px] relative z-20">
-<div class="contact__container container mx-auto bg-primary/75 sm:rounded-[70px] py-[80px]">
+<section class="contact container mx-auto bg-contact bg-center lg:bg-cover bg-no-repeat bg-fixed mt-[80px] xl:mt-[150px] relative z-20 rounded-[70px] py-[80px]">
+  <div class="contact__container container mx-auto ">
   <div class="contact__text max-w-[640px] mx-auto text-center">
-  <h2 class="h2 text-white mb-4">Book Your Appointment Now</h2>
-  <p class="text-white mb-8 max-w-sm xl:max-w-none mx-auto">Have questions or need assistance? Reach out to our friendly team for support.</p>
+  <h2 class="h2 text-primary mb-3">Book Your Appointment Now</h2>
+  <p class="text-primary mb-8 max-w-sm xl:max-w-none mx-auto">Have questions or need assistance? Reach out to our friendly team for support.</p>
   <button class="btn btn-accent hover:bg-accent/80 mx-auto">Connect with Us! <i class="ri-arrow-right-line text-primary"></i></button>
 </div>
 </div>
@@ -534,12 +510,12 @@ Btn text: Learn More
 </div>
 
 <!-- socials -->
-<ul class="text-primary flex gap-[54px] justify-center text-center">
+<ul class="text-primary flex gap-[54px] justify-center text-center mb-8">
   <li>
-    <a href=""><i class="ri-github-fill  text-5xl"></i></a>
+    <a href="https://github.com/bernadettmarsalik" target="_blank"><i class="ri-github-fill  text-5xl"></i></a>
   </li>
   <li>
-    <a href=""><i class="ri-linkedin-fill  text-5xl"></i></a>
+    <a href="https://www.linkedin.com/in/bernadett-marsalik-511506287/" target="_blank"><i class="ri-linkedin-fill  text-5xl"></i></a>
   </li>
   <li>
     <a href=""><i class="ri-facebook-fill text-5xl"></i></a>
@@ -548,8 +524,8 @@ Btn text: Learn More
     <a href=""><i class="ri-instagram-fill  text-5xl"></i></a>
   </li>
 </ul>
-<p class="footer__copyright text-center text-lg py-10 bg-white xl:border-t">Copyright &copy; HORIZON Health Center 2024. All rights reserved.</p>
-<div class="footer__copyright text-center text-lg py-10 bg-white">
+<p class="footer__copyright text-center text-lg bg-white xl:border-t mt-8 pt-8">Copyright &copy; HORIZON Health Center 2024. All rights reserved.</p>
+<div class="footer__copyright text-center text-lg bg-white">
   <p>Licences</p>
   <p>
 Made with <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a>, 
