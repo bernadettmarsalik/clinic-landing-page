@@ -18,7 +18,7 @@ module.exports = {
       secondary: "Montserrat",
     },
     backgroundImage: {
-      hero: "url(/assets/hero/bg.jpg)",
+      hero: "url(/assets/bg.jpg)",
       contact: "url(/assets/contact.jpg)",
     },
     extend: {

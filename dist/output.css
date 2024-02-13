@@ -671,18 +671,6 @@ video {
   margin-top: 80px;
 }
 
-.mt-\[10px\] {
-  margin-top: 10px;
-}
-
-.mt-\[50px\] {
-  margin-top: 50px;
-}
-
-.mt-\[30px\] {
-  margin-top: 30px;
-}
-
 .flex {
   display: flex;
 }
@@ -719,8 +707,8 @@ video {
   height: 70px;
 }
 
-.h-\[88px\] {
-  height: 88px;
+.h-\[85px\] {
+  height: 85px;
 }
 
 .h-\[93px\] {
@@ -733,14 +721,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[650px\] {
-  height: 650px;
-}
-
-.h-\[85px\] {
-  height: 85px;
 }
 
 .w-\[52px\] {
@@ -943,7 +923,7 @@ video {
 }
 
 .bg-hero {
-  background-image: url(/assets/hero/bg.jpg);
+  background-image: url(/assets/bg.jpg);
 }
 
 .bg-fixed {
@@ -1252,32 +1232,16 @@ h6 {
     margin-bottom: 150px;
   }
 
+  .xl\:mt-\[120px\] {
+    margin-top: 120px;
+  }
+
   .xl\:mt-\[150px\] {
     margin-top: 150px;
   }
 
   .xl\:mt-\[200px\] {
     margin-top: 200px;
-  }
-
-  .xl\:mt-\[50px\] {
-    margin-top: 50px;
-  }
-
-  .xl\:mt-\[120px\] {
-    margin-top: 120px;
-  }
-
-  .xl\:mt-\[100px\] {
-    margin-top: 100px;
-  }
-
-  .xl\:h-\[840px\] {
-    height: 840px;
-  }
-
-  .xl\:h-\[880px\] {
-    height: 880px;
   }
 
   .xl\:h-\[850px\] {
