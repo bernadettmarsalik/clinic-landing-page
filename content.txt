@@ -1,0 +1,97 @@
+------------------
+LINKS
+------------------
+Home
+About
+Services
+Doctors
+Appointments
+Contact
+
+------------------
+HERO
+------------------
+Title: Your Health, Our Priority
+Subtitle: Providing compassionate and comprehensive healthcare services for a healthier tomorrow.
+Btn text: Schedule Appointment
+
+------------------
+SERVICES
+------------------
+Title 1: General Medicine
+Title 2: Specialized Care
+Title 3: Preventive Health
+
+Subtitle x3: Offering a range of medical services to address your health needs, ensuring your well-being at every step.
+Btn text: Learn More
+
+------------------
+ABOUT
+------------------
+Title: Dedicated to Your Well-being
+Subtitle: At our medical center, we are committed to delivering high-quality healthcare with a patient-centric approach. Our experienced team of healthcare professionals is here to support you on your journey to optimal health.
+
+------------------
+TESTIMONIALS
+------------------
+Title: Patient Stories
+
+Dr. Emily Johnson
+Cardiologist, New York
+"Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been."
+
+Sarah Thompson
+Pediatric Patient's Parent, Brooklyn
+"Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been."
+
+John Miller
+Emergency Care Recipient, Queens
+"Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been."
+
+------------------
+DOCTORS
+------------------
+Title: Meet Our Expert Team
+Subtitle: Our dedicated team of healthcare professionals is here to provide personalized care for your well-being.
+
+------------------
+APPOINTMENTS
+------------------
+Title: Book Your Appointment
+Subtitle: Schedule your visit to our medical center for personalized and attentive healthcare services. Your health is our priority.
+
+------------------
+CONTACT
+------------------
+Title: Connect With Us
+Subtitle: Have questions or need assistance? Reach out to our friendly team for support.
+
+------------------
+FOOTER
+------------------
+Logo
+Subtitle: Your health, our commitment.
+Socials
+
+Pages
+Home
+About Us
+Services
+Doctors
+Appointments
+Contact
+
+Services
+General Medicine
+Specialized Care
+Preventive Health
+
+Contact
+123 Medical Street, New York, NY 10001
+info@healthcenter.com
+(555) 123 - 4567
+
+------------------
+COPYRIGHT
+------------------
+Copyright © Health Center 2024. All rights reserved.

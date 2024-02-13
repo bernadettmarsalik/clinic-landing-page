@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HORIZON Health Center</title>
+    <!-- css -->
+    <link rel="stylesheet" href="dist/output.css" />
+
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.min.css"
+    />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body class="bg-tertiary">
+    <!-- header -->
+    <header class="sticky top-0 h-[90px] shadow-xl z-30 bg-white">
+      <div class="container mx-auto flex justify-between h-full items-center">
+        <!-- logo -->
+        <a href="#">
+          <img class="max-h-[90px]" src="assets/logo.png" alt="" />
+        </a>
+        <nav>
+          <!-- mobile trigger -->
+          <div class="cursor-pointer lg:hidden" id="nav_trigger_btn">
+            <i class="ri-menu-line text-4xl text-primary"></i>
+          </div>
+
+          <ul
+            class="fixed w-full h-0 p-0 bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300"
+            id="nav_menu"
+          >
+            <li><a href="">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#patients">Patients</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- page wrapper -->
+    <main class="max-w-[1920px] mx-auto bg-white overflow-hidden">
+      <!-- grid img -->
+      <div
+        class="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-80"
+      ></div>
+
+      <!-- hero -->
+      <section
+        class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20"
+      >
+        <div
+          class="container mx-auto w-full h-full flex items-center justify-center xl:justify-center"
+        >
+          <!-- text -->
+          <div
+            class="hero__text w-[576px] flex flex-col items-center text-center xl:text-left lg:items-center "
+          >
+          <p class="mb-20"></p>
+            <h1 class="h1 text-center">Your health</h1>
+            <h1 class="h1 mb-8 text-center text-accent">is our priority</h1>
+            
+            <p class="mb-8 text-center">
+              Providing compassionate and comprehensive healthcare services for a healthier tomorrow.
+            </p>
+            <button class="btn btn-primary mx-auto xl:mx-0">
+              Schedule Appointment <i class="ri-calendar-schedule-line text-accent"></i>
+            </button>
+          </div>
+        </div>
+      </section >
+
+      <!-- steps -->
+      <div id="about" class="mt-[20px]"></div>
+      <section  class="steps mt-[80px] xl:mt-[200px] relative z-20">
+        <div class="container mx-auto">
+          <!-- grid items -->
+          <div class="grid grid-cols-1 gap-12 xl:grid-cols-3">
+            <!-- step-1 -->
+            <div class="steps__step text-center mb-4">
+              <div>
+                <i class="ri-hospital-line text-5xl text-accent"></i>
+              </div>
+              <h3 class="h3 mb-5">General Medicine</h3>
+              <p class="mb-5 max-w-md mx-auto">
+                Offering a range of medical services to address your health needs, ensuring your well-being at every step.
+                Btn text: Learn More
+              </p>
+              <a href="#" class="font-medium flex justify-center gap-2"
+                >Learn More <i class="ri-arrow-right-line text-accent"></i
+              ></a>
+            </div>
+            <!-- step-2 -->
+            <div class="steps__step text-center mb-4">
+              <div>
+                <i class="ri-empathize-line text-5xl text-accent"></i>
+              </div>
+              <h3 class="h3 mb-5">Specialized Care</h3>
+              <p class="mb-5 max-w-md mx-auto">
+                Offering a range of medical services to address your health needs, ensuring your well-being at every step.
+              </p>
+              <a href="#" class="font-medium flex justify-center gap-2"
+                >Learn More <i class="ri-arrow-right-line text-accent"></i
+              ></a>
+            </div>
+            <!-- step-3 -->
+            <div class="steps__step text-center mb-4">
+              <div>
+                <i class="ri-capsule-line text-5xl text-accent"></i>
+              </div>
+              <h3 class="h3 mb-5">Preventive Health</h3>
+              <p class="mb-5 max-w-md mx-auto">
+                Offering a range of medical services to address your health needs, ensuring your well-being at every step.
+Btn text: Learn More
+              </p>
+              <a href="#" class="font-medium flex justify-center gap-2"
+              >Learn More <i class="ri-arrow-right-line text-accent"></i
+            ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about -->
+      <section class="about mt-[80px] xl:mt-[200px] relative z-20">
+        <div class="container mx-auto xl:px-0">
+          <div
+            class="flex flex-col xl:flex-row text-center xl:text-left justify-between items-center gap-8 xl:gap-[74px]"
+          >
+            <!-- text -->
+            <div
+              class="about__text flex-1 order-2 xl:order-none max-w-xl xl:max-w-[410px] flex flex-col items-center xl:items-start gap-8"
+            >
+              <h2 class="h2">Dedicated to Your Well-being</h2>
+              <p>
+                At our medical center, we are committed to delivering high-quality healthcare with a patient-centric approach.</p>
+              <p>
+                Our experienced team of healthcare professionals is here to support you on your journey to optimal health.</p>
+              <!-- phone -->
+              <div
+                class="flex items-center justify-center xl:justify-start gap-4"
+              >
+                <div
+                  class="bg-accent/25 w-[93px] h-[93px] rounded-full flex justify-center items-center"
+                >
+                  <i class="ri-phone-fill text-primary text-4xl"></i>
+                </div>
+                <div class="text-left text-primary">
+                  <div class="text-2xl font-bold">012 3456 789</div>
+                  <div>Call Now</div>
+                </div>
+              </div>
+
+              <!-- button -->
+              <button class="btn btn-primary mx-auto xl:mx-0">
+                Schedule Appointment <i class="ri-calendar-schedule-line text-accent"></i>
+              </button>
+            </div>
+
+            <!-- img -->
+            <div
+              class="about__img order-1 xl:order-none max-w-[453px] mx-auto xl:max-w-none xl:mx-0"
+            >
+              <img class="w-[576px] xl:rounded-bl-[290px] xl:rounded-tr-[290px] border border-4 border-accent/25" src="assets/about/img.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+ 
+
+      <!-- services -->
+      <div id="services" class="mt-[20px]"></div>
+      <section class="service mt-[80px] xl:mt-[150px] relative z-20">
+        <div class="container mx-auto xl:px-0">
+<div class="text-center mb-24">
+  <h2 class="service__title h2 mb-4">Meet Our Expert Team</h2>
+  <p class="service__subtitle max-w-3xl mx-auto"> Our dedicated team of healthcare professionals is here to provide personalized care for your well-being.
+  </p>
+</div>
+
+
+<!-- grid service -->
+<div class="service__grid grid grid-cols-1 xl:grid-cols-2 gap-x-[104px] gap-y-[80px]">
+  <!-- item -->
+  <div class="w-full max-w-[548px] h-full mx-auto">
+    <img class="mb-6 xl:rounded-br-[290px] xl:rounded-tl-[290px]" src="assets/services/pexels-anna-shvets-4769130.jpg" alt="">
+    <div class="flex justify-between items-center w-full">
+      <div>
+        <h2 class="h2">Plastic Surgery</h2>
+        <p>Aesthetic / Natural Results</p>
+      </div>
+      <button class="bg-accent/25 hover:bg-accent w-[70px] h-[70px] rounded-full">
+        <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
+      </button>
+    </div>
+  </div>
+
+    <!-- item -->
+    <div class="w-full max-w-[548px] h-full mx-auto">
+      <img class="mb-6 xl:rounded-bl-[290px] xl:rounded-tr-[290px]" src="assets/services/pexels-mart-production-7089047.jpg" alt="">
+      <div class="flex justify-between items-center w-full">
+        <div>
+          <h2 class="h2">Medical Imaging</h2>
+          <p>Ultrasound / Mammography</p>
+        </div>
+        <button class="bg-accent/25 hover:bg-accent w-[70px] h-[70px] rounded-full">
+          <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- item -->
+    <div class="w-full max-w-[548px] h-full mx-auto">
+      <img class="mb-6 xl:rounded-bl-[290px] xl:rounded-tr-[290px]" src="assets/services/pexels-cottonbro-studio-7581574.jpg" alt="">
+      <div class="flex justify-between items-center w-full">
+        <div>
+          <h2 class="h2">Aesthetic Procedure</h2>
+          <p>Cosmetologist</p>
+        </div>
+        <button class="bg-accent/25 hover:bg-accent w-[70px] h-[70px] rounded-full">
+          <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- item -->
+    <div class="w-full max-w-[548px] h-full mx-auto">
+      <img class="mb-6 xl:rounded-br-[290px] xl:rounded-tl-[290px]"  src="assets/services/pexels-anna-shvets-3845626.jpg" alt="">
+      <div class="flex justify-between items-center w-full">
+        <div>
+          <h2 class="h2">Dentist</h2>
+          <p>For a stunning smile.</p>
+        </div>
+        <button class="bg-accent/25 hover:bg-accent w-[70px] h-[70px] rounded-full">
+          <i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i>
+        </button>
+      </div>
+    </div>
+
+    
+    
+</div>
+        </div>
+      </section>
+
+     <!-- reviews -->
+     <div id="patients" class="mt-20px"></div>
+     <section class="testimonial mt-[80px] xl:mt-[200px] relative z-20">
+       
+       <div
+         class="testimonial__bg container mx-auto bg-accent/25 rounded-[70px] flex flex-col justify-center align-center p-9"
+       >
+       <div class="container flex flex-col items-center">
+         <h2 class="h2 mb-5 text-center">Patient Stories</h2>
+     
+         <!-- slider -->
+         <div class="w-full">
+           <!-- Swiper -->
+           <div class="swiper mySwiper">
+             <div class="swiper-wrapper">
+               <!-- slide-1 -->
+               <div class="swiper-slide testimonial__item  w-full max-w-[370px] h-[300px] bg-white rounded-[30px] flex flex-col justify-center items-center p-9 mx-auto"
+               >
+                 <div class="flex flex-col lg:flex-row gap-4 mb-6">
+                   <img src="assets/testimonial/01.png" alt="" />
+                   <div>
+                     <h3>Dr. Emily Johnson</h3>
+                     <div>Cardiologist, New York</div>
+                   </div>
+                 </div>
+                 <p>
+                   Lorem Ipsum is simply dummy text of the typesetting
+                   industry. Ipsum has been.
+                 </p>
+               </div>
+                     <!-- slide-2 -->
+                     <div class="swiper-slide testimonial__item  w-full max-w-[370px] h-[300px] bg-white rounded-[30px] flex flex-col justify-center items-center p-9 mx-auto"
+                     >
+                     <div class="flex flex-col lg:flex-row gap-4 mb-6">
+                       <img src="assets/testimonial/02.png" alt="" />
+                         <div>
+                           <h3>Ken Thompson
+                           </h3>
+                           <div>Dentist, Brooklyn
+                           </div>
+                         </div>
+                       </div>
+                       <p>
+                         Lorem Ipsum is simply dummy 
+                         text of the typesetting industry. 
+                         Ipsum has been.
+                       </p>
+                     </div>
+
+                          <!-- slide-3 -->
+                          <div class="swiper-slide testimonial__item  w-full max-w-[370px] h-[300px] bg-white rounded-[30px] flex flex-col justify-center items-center p-9 mx-auto"
+                          >
+                          <div class="flex flex-col lg:flex-row gap-4 mb-6">
+                           <img src="assets/testimonial/03.png" alt="" />
+                              <div>
+                                <h3>John Miller
+                                </h3>
+                                <div>Radiologist, Queens
+                                </div>
+                              </div>
+                            </div>
+                            <p>
+                             Lorem Ipsum is simply dummy 
+                             text of the typesetting industry. 
+                             Ipsum has been.
+                            </p>
+                          </div>
+
+                            <!-- slide-4 -->
+                            <div class="swiper-slide testimonial__item  w-full max-w-[370px] h-[300px] bg-white rounded-[30px] flex flex-col justify-center items-center p-9 mx-auto"
+                            >
+                            <div class="flex flex-col lg:flex-row gap-4 mb-6">
+                             <img src="assets/testimonial/04.png" alt="" />
+                                <div>
+                                  <h3>Anna Smith
+                                  </h3>
+                                  <div>Plastic Surgery, New York
+                                  </div>
+                                </div>
+                              </div>
+                              <p>Lorem Ipsum is simply dummy 
+                               text of the typesetting industry. 
+                               Ipsum has been.
+                              </p>
+                            </div>
+                             <!-- slide-4 -->
+                            <div class="swiper-slide testimonial__item  w-full max-w-[370px] h-[300px] bg-white rounded-[30px] flex flex-col justify-center items-center p-9 mx-auto"
+                            >
+                            <div class="flex flex-col lg:flex-row gap-4 mb-6">
+                             <img src="assets/testimonial/01.png" alt="" />
+                                <div>
+                                  <h3>Olivia Donovan
+
+                                  </h3>
+                                  <div>Cardiologist, Brooklyn
+                                  </div>
+                                </div>
+                              </div>
+                              <p>Lorem Ipsum is simply dummy 
+                               text of the typesetting industry. 
+                               Ipsum has been.
+                              </p>
+                            </div>
+             </div>
+             <div class="swiper-pagination"></div>
+           </div>
+           <!-- swiper end -->
+
+
+           </div>
+         </div>
+
+         </div>
+       </div>
+     </section>
+
+<!-- brands -->
+<div id="brands" class="mt-20px"></div>
+     <section class="brands mt-[80px] xl:mt-[150px] relative z-20">
+       <div class="container mx-auto">
+         <div class="flex flex-col xl:flex-row justify-between items-center gap-12">
+           <img class="brands__img" src="assets/brands/01.svg" alt="">
+           <img class="brands__img" src="assets/brands/02.svg" alt="">
+           <img class="brands__img" src="assets/brands/03.svg" alt="">
+           <img class="brands__img" src="assets/brands/04.svg" alt="">
+           <img class="brands__img" src="assets/brands/05.svg" alt="">
+         </div>
+       </div>
+     </section>
+
+
+<!-- stats -->
+<div id="stats" class="mt-20px"></div>
+<section class="stats mt-[80px] xl:mt-[150px] relative z-20 bg-accent/25 py-[80px] xl:py-[150px]">
+<div class="container mx-auto">
+  <!-- grid stats -->
+  <div class="grid grid-cols-1 xl:grid-cols-4 gap-12">
+    <!-- grid item -->
+<div class="stats__item text-center xl:border-r xl:border-accent">
+<h3 class="h1 font-primary text-accent ">18</h3>
+<p>Years of Experience</p>
+</div>
+<!-- grid item end -->
+ <!-- grid item -->
+ <div class="stats__item text-center xl:border-r xl:border-accent">
+  <h3 class="h1 font-primary text-accent ">120+</h3>
+  <p>Succesful Surgery</p>
+  </div>
+  <!-- grid item end -->
+   <!-- grid item -->
+<div class="stats__item text-center xl:border-r xl:border-accent">
+  <h3 class="h1 font-primary text-accent ">12</h3>
+  <p>Doctors</p>
+  </div>
+  <!-- grid item end -->
+   <!-- grid item -->
+<div class="stats__item text-center xl:border-r xl:border-accent">
+  <h3 class="h1 font-primary text-accent ">5</h3>
+  <p>Medical Fields</p>
+  </div>
+  <!-- grid item end -->
+  </div>
+</div>
+</section>
+
+
+<!-- blog -->
+<div id="blog" class="mt-20px"></div>
+<section class="blog mt-[80px] xl:mt-[150px] relative z-20">
+  <div class="container mx-auto px-0">
+    <div class="max-w-[810px] mx-auto text-center mb-[52px]">
+      <h2 class="blog__title h2">Blog Articles</h2>
+      <p class="blog__subtitle">
+        Navigating Health Together: Insights and Stories from Our Patient Community.
+      </p>
+    </div>
+    <!-- grid blog -->
+    <div class="blog__grid grid grid-cols-1 xl:grid-cols-3 gap-[27px]">
+      <!-- grid item -->
+      <div class="blog__item w-full max-w-[382px] h-[520px] border border-primary/20 rounded-[62px] p-[20px] hover:bg-accent/25 transition-all group cursor-ppinter mx-auto xl:mx-0">
+        <img class="mb-5 rounded-[62px] h-[280px] w-full" src="assets/blog/pexels-arvind-philomin-12934843.jpg" alt="">
+        <div class="flex flex-col gap-[30px]">
+          <h3 class="h3">Discover the strength and encouragement</h3>
+        </div>
+        <div class="flex items-center justify-between">
+          <p class="text-base">22 January,2024</p>
+          <button class="bg-accent/25 w-[52px] h-[52px] rounded-full group-hover:bg-white transition-all"><i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i></button>
+        </div>
+      </div>
+
+       <!-- grid item -->
+       <div class="blog__item w-full max-w-[382px] h-[520px] border border-primary/20 rounded-[62px] p-[20px] hover:bg-accent/25 transition-all group cursor-ppinter mx-auto xl:mx-0">
+        <img class="mb-5 rounded-[62px] h-[280px] w-full" src="assets/blog/national-cancer-institute-ofWV2r94qCc-unsplash.jpg" alt="">
+        <div class="flex flex-col gap-[30px]">
+          <h3 class="h3">The importance of Mammography</h3>
+        </div>
+        <div class="flex items-center justify-between">
+          <p class="text-base">05 February,2024</p>
+          <button class="bg-accent/25 w-[52px] h-[52px] rounded-full group-hover:bg-white transition-all"><i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i></button>
+        </div>
+      </div>
+
+       <!-- grid item -->
+       <div class="blog__item w-full max-w-[382px] h-[520px] border border-primary/20 rounded-[62px] p-[20px] hover:bg-accent/25 transition-all group cursor-ppinter mx-auto xl:mx-0">
+        <img class="mb-5 rounded-[62px] h-[280px] w-full" src="assets/blog/pexels-mart-production-7089401.jpg" alt="">
+        <div class="flex flex-col gap-[30px]">
+          <h3 class="h3">Overcoming Health Challenges in Cardiology</h3>
+        </div>
+        <div class="flex items-center justify-between">
+          <p class="text-base">10 February,2024</p>
+          <button class="bg-accent/25 w-[52px] h-[52px] rounded-full group-hover:bg-white transition-all"><i class="ri-arrow-right-s-line text-3xl text-primary pl-1"></i></button>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+
+</section>
+
+<!-- contact -->
+<div id="contact" class="mt-20px"></div>
+<section class="contact mt-[80px] xl:mt-[150px] relative z-20">
+<div class="contact__container container mx-auto bg-primary/75 sm:rounded-[70px] py-[80px]">
+  <div class="contact__text max-w-[640px] mx-auto text-center">
+  <h2 class="h2 text-white mb-4">Book Your Appointment Now</h2>
+  <p class="text-white mb-8 max-w-sm xl:max-w-none mx-auto">Have questions or need assistance? Reach out to our friendly team for support.</p>
+  <button class="btn btn-accent hover:bg-accent/80 mx-auto">Connect with Us! <i class="ri-arrow-right-line text-primary"></i></button>
+</div>
+</div>
+</section>
+
+<!-- footer -->
+<footer class="footer mt-[80px] xl:mt-[150px] relative z-20">
+  <div class="container mx-auto px-0">
+    <div class="flex flex-col xl:flex-row xl:gap-[100px] xl:mb-[150px] items-center mb-8">
+    <div class="footer__item w-full max-w-[400px] mx-auto mb-8 text-center xl:text-start ">
+  
+      <!-- logo -->
+      <a class="flex justify-center xl:justify-start" href="#">
+        <img src="assets/logo.png" alt="">
+      </a>
+      <p class="mb-8 text-xl text-center">Your health is our commitment.</p>
+
+    </div>
+    <div class="flex-1 flex flex-col xl:flex-row text-center xl:text-left gap-12 xl:gap-[100px] xl:justify-end">
+      <div class="footer__item">
+        <h3 class="h3 mb-3">Pages</h3>
+        <ul class="flex flex-col gap-4">
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Patients</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__item">
+        <h3 class="h3 mb-3">Services</h3>
+        <ul class="flex flex-col gap-4">
+          <li><a href="">General Medicine</a></li>
+          <li><a href="">Cardiology</a></li>
+          <li><a href="">Plastic Surgery</a></li>
+          <li><a href="">Radiology</a></li>
+          <li><a href="">Dentist</a></li>
+        </ul>
+      </div>
+      <div class="footer__item max-w-[260px] mx-auto xl:mx-0">
+        <h3 class="h3 mb-3">Contact</h3>
+        <div class="flex flex-col gap-6 text-[20px]">
+        <p>128. Medical Street, New York, NY 10001</p>
+        <p>info@horizonhealthcenterny.com</p>
+        <p>(123) 456 - 7890</p>
+      </div>
+      </div>
+  </div>
+</div>
+
+<!-- socials -->
+<ul class="text-primary flex gap-[54px] justify-center text-center">
+  <li>
+    <a href=""><i class="ri-github-fill  text-5xl"></i></a>
+  </li>
+  <li>
+    <a href=""><i class="ri-linkedin-fill  text-5xl"></i></a>
+  </li>
+  <li>
+    <a href=""><i class="ri-facebook-fill text-5xl"></i></a>
+  </li>
+  <li>
+    <a href=""><i class="ri-instagram-fill  text-5xl"></i></a>
+  </li>
+</ul>
+<p class="footer__copyright text-center text-lg py-10 bg-white xl:border-t">Copyright &copy; HORIZON Health Center 2024. All rights reserved.</p>
+<div class="footer__copyright text-center text-lg py-10 bg-white">
+  <p>Licences</p>
+  <p>
+Made with <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a>, 
+<a href="https://scrollrevealjs.org/" target="_blank">ScrollRevealJS</a>, 
+<a href="https://swiperjs.com/" target="_blank">SwiperJS</a>,
+icons from
+<a href="https://remixicon.com/" target="_blank">Remix</a>
+
+</p>
+</div>
+</footer>
+
+     
+    </main>
+
+    <!-- scroll reveal js -->
+    <script src="js/scrollreveal.min.js"></script>
+
+    <!-- main js -->
+    <script src="js/main.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1, 
+
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+    },
+
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>
